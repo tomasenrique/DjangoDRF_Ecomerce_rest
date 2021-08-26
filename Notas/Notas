@@ -1,0 +1,25 @@
+Proyecto usando Django DRF
+
+========================================================================================================================
+========================================================================================================================
+
+Video 2
+
+==>> Estructurando el proyecto para mejor funcionsmiento de la API, se divide el archivo settings.py en 3 archivos:
+     'base.py', 'local.py' y 'production.py', todas guardadas en la carpteta 'settings' y se realizan las
+     configuraciones necesarias.
+
+==>> Se crea la carpeta 'apps' que sera donse de crearan las aplicaciones del proyecto.
+
+==>> Se crea aplicación 'users'
+
+==>> Se crea el modelo para la aplicación y se registra para su gestion en el panel de administración
+
+==>> Se realiza las migraciones necesarias a la base de datos.
+
+==>> Se crea uan cuenta de super usuario del proyecto
+
+==>> Se ejecuta el proyecto.
+
+========================================================================================================================
+========================================================================================================================
