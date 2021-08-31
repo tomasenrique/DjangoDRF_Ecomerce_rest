@@ -23,3 +23,18 @@ Video 2
 
 ========================================================================================================================
 ========================================================================================================================
+
+Video 3
+
+==>> Creando primer serializador y APIVIEW de usuario
+
+==>> Eliminando el archivo 'test.py' de la app users y creando la carpeta 'api' en la app, que sera para almacenar todas
+     las rutas y los serializadores
+
+==>> Se crean los archivos 'serializers', 'api' y 'urls', cada una con su respectiva funcion y se realiza el enlace con
+     el archivo urls del poyecto
+
+==>> Se realiza pruebas y se obtiene imagenes de muestra
+
+========================================================================================================================
+========================================================================================================================
