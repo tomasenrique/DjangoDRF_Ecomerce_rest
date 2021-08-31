@@ -31,4 +31,9 @@ def user_api_view(request):
         return Response(users_serializer.data)
 
     elif request.method == 'POST':
-        print(request.data)  # Para probar que los datos llegan al servidor, ver en la consola
+        # Para realizar una validación de datos y ver si coincide los datos recibidos con el modelo del sistema
+        user_serialiser = UserSerializers(data=request.data)
+        if user_serialiser.is_valid():  # Para verificar su los datos son validos
+            user_serialiser.save()  # Guarda los datos en la BBDD
+            return Response(user_serialiser.data)  #
+        return Response(user_serialiser.errors)  # Para mostrar mensaje de error si no pasa la validación
