@@ -10,5 +10,5 @@ que le especifiquemos en la variable 'fields'
 class UserSerializers(serializers.ModelSerializer):
     class Meta:
         model = User
-        # fields = '__all__'  # Con esto se indica que queremos mostrar todos los campos del modelo.
-        fields = ['username', 'email', 'name', 'last_name']  # Sise quiere se puede especificar determinados campos
+        fields = '__all__'  # Con esto se indica que queremos mostrar todos los campos del modelo.
+        # fields = ['username', 'email', 'name', 'last_name']  # Sise quiere se puede especificar determinados campos
